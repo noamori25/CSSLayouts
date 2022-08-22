@@ -1,0 +1,138 @@
+.p-relative {
+  position: relative;
+}
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: antiquewhite;
+  border: 1px solid antiquewhite;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+.date-time {
+  flex-basis: 75%;
+}
+.body-container{
+  display: flex;
+  gap: 40px;
+}
+.left-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.title {
+  display: block;
+  text-align: center;
+  margin-block: 10px;
+}
+.todo-items {
+  margin-left: 10px;
+  padding: 0;
+  list-style: none;
+  height: 50%;
+}
+.todo-item {
+  position: relative;
+  margin-left: 20px;
+}
+.planing-container {
+  width: 70%;
+  border: 5px solid antiquewhite;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hours {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 50px 50px 50px 50px;
+  gap: 10px 30px;
+  grid-auto-flow: column;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.actions {
+  grid-row: 1/5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.hour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2;
+  background-color: antiquewhite;
+  border: 2px solid black;
+}
+.actions-col3 {
+  grid-row: 1/5;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 3px;
+  grid-column: 3;
+}
+.hour-col4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.daily-song {
+  width: 10%;
+  margin-top: 0;
+  border-block: solid antiquewhite;
+  padding-inline: 10px;
+}
+.daily-proverb {
+  margin-block: 20px;
+}
+svg {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.check {
+  position: absolute;
+  left: -20px;
+  top: 1.2px;
+}
+.done {
+  position: absolute;
+  right:10px;
+  bottom: 5px;
+}
+.todo-list {
+  border: 5px solid antiquewhite;
+  border-radius: 10px;
+  flex-grow: 1;
+}
+.water-icons{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.water-list {
+  border: 5px solid antiquewhite;
+  border-radius: 10px;
+  text-align: center;
+}
+
